@@ -127,18 +127,8 @@ Then configure your database details inside:
 src/main/resources/application.properties
 ```
 
-Example configuration:
 
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/voting_system
-spring.datasource.username=root
-spring.datasource.password=YOUR_PASSWORD
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
-
-> Replace `YOUR_PASSWORD` with your MySQL password.
 
 ### 4. Run the application
 
